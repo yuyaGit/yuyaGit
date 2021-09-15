@@ -15,6 +15,7 @@ try {
     $stmt->bindValue(":publish_status", $blogs["publish_status"], PDO::PARAM_INT);
     $stmt->execute();
     echo "ブログを投稿しました";
+    echo "<a href='index.php'>戻る</a>";
     $dbh->commit();
 } catch (PDOException $e) {
     $dbh->rollBack();
