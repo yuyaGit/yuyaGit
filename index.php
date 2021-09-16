@@ -30,6 +30,7 @@ require_once("dbc.php");
                 <td><?php echo $column["category"] ?></td>
                 <td><a href="detail.php?id=<?php echo $column["id"] ?>">詳細</a></td>
                 <td><a href="update_form.php?id=<?php echo $column["id"] ?>">変更</a></td>
+                <td><a href="blog_delete.php?id=<?php echo $column["id"] ?>">削除</a></td>
             </tr>
         <?php endforeach ?>
     </table>

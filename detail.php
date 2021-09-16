@@ -8,9 +8,6 @@ $result = getBlog($id);
 
 ?>
 
-
-
-
 <!DOCTYPE html>
 <html lang="ja">
 
